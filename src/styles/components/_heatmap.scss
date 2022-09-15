@@ -1,0 +1,36 @@
+.table-container {
+    background-color: white;
+    border-radius: 5px;
+    height: 65vh;
+    margin: $m-size;
+    width: 60%;
+    overflow-y: scroll;
+}
+
+.table {
+    font-size: $s-size;
+    max-height: 65vh;
+    max-width: 60%;
+}
+
+.table__header {
+    text-align: center;
+}
+
+.table__cell {
+    cursor: pointer;
+    font-size: $m-size;
+    margin-right: $s-size;
+    text-align: center;
+}
+
+.heatmap-metric {
+    display: flex;
+    margin-top: $m-size;
+}
+
+.heatmap-metric__blob {
+    width: 0.8em;
+    height: 0.8em;
+    margin: 0.5rem;
+}
